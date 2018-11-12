@@ -12,8 +12,7 @@ After data cleaning and feature engineering, we run our model with different mod
 
 ## System Architecture 
 
-
-![aaj](data-files/System Architecture - Airbnb Prediction.jpg)
+![aaj](data-files/SystemArchitecture-AirbnbPrediction.jpg)
 
 ## Tools and Technologies Used:
 
