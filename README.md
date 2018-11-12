@@ -1,4 +1,4 @@
-Airbnb Price host accomodation price prediction
+# Airbnb Price host accomodation price prediction
 
 
 
@@ -8,11 +8,40 @@ Here, we have Airbnb dataset containing detailed listings data for New York City
 
 After data cleaning and feature engineering, we run our model with different models to predict prices and compare accuracy.
 
-System Architecture diagram: 
 
 
+## System Architecture 
 
+[System Architecture Diagram]: AirbnbHostPropertyPrediction/data-files/SystemArchitecture-AirbnbPrediction.jpg	"System Architecture"
 
+## Tools and Technologies Used:
 
-![page4image44374528](file:////Users/shripalmodani/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.jpg)
+Libraries used:
 
+##### For dataframes: 
+
+Pandas, Numpy
+
+##### For visualisation (graph plotting):
+
+1. Matplotlib.pyplot - Plotting framework, helpful for creating interactive graphs.
+2. Basemap - To create geographical projections of neighbourhood and visualisation graph
+3. Axed3D - Creation of 3D projection in our graphs.
+
+##### Sentiment Analysis libraries:
+
+1. Scikit Learn SentimentIntensityAnalyzer (The intensity of the words analyzed)	
+2. Scikit Learn Vader(SIA)- In order to process the reviews with the nature of positive, negative and neutral
+3. Scikit Learn corpus(stopwords) - in order to remove filler words like “the”, “and” etc unnecessary in the calculation.
+
+Random Forest:
+
+- Scikit Learn RandomForestRegressor (sklearn.ensemble.RandomForestRegressor)
+
+K-Nearest Neighbors Regressor:
+
+- Scikit Learn K-Nearest Neighbors Regressor (sklearn.neighbors.KNeighborsRegressor)
+
+Logistic Regression:
+
+- Scikit Learn Logistic Regression (sklearn.linear_model.LogisticRegression)
